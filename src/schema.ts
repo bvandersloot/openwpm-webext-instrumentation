@@ -64,6 +64,7 @@ export interface HttpRequest {
   is_third_party_to_top_window?: number;
   triggering_origin?: string;
   loading_origin?: string;
+  origin_url?: string;
   loading_href?: string;
   req_call_stack?: string;
   resource_type: string;

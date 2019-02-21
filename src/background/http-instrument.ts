@@ -372,6 +372,7 @@ export class HttpInstrument {
     }
     update.triggering_origin = escapeString(triggeringOrigin);
     update.loading_origin = escapeString(loadingOrigin);
+    update.origin_url = escapeString(details.originUrl);
 
     // loadingDocument's href
     // The loadingDocument is the document the element resides, regardless of
